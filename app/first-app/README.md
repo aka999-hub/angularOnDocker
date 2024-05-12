@@ -9,6 +9,8 @@ um790@UM790:~/project/angularOnDocker$ docker ps |grep angular
 #### Dockerのbashに入るコマンド
 docker exec -it fac8e005a6a18cb4dea1fcf3921d7ca1eb29a47ce8bacb4cc3fafebb61ee177d bash 
 
+#### サーバー起動
+root@fac8e005a6a1:/app/first-app# npx ng serve --host 0.0.0.0 --poll 1
 
 
 ---
@@ -39,3 +41,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+### レッスンサイト：レッスン 2: Home コンポーネントの作成
+https://angular.jp/tutorial/first-app/first-app-lesson-02
+
+
+### レッスンサイト：レッスン 3: HousingLocation コンポーネントの作成
+https://angular.jp/tutorial/first-app/first-app-lesson-03
+ステップ 2：未着手
+
+
+
+
+
+

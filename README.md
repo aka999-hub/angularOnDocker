@@ -12,6 +12,25 @@ https://www.toptal.com/developers/gitignore/
 https://www.youtube.com/watch?v=i1L3A0SLDyg
 
 
+---
+### docker compose 起動
+um790@UM790:~/project/angularOnDocker$ docker compose up -d
+um790@UM790:~/project/angularOnDocker$ docker ps -a |grep angular
+
+### コンテナのshに入る
+docker exec -it [コンテナID] bash 
+
+
+### git関連
+um790@UM790:~/project/angularOnDocker$ git branch
+um790@UM790:~/project/angularOnDocker$ git remote -v
+um790@UM790:~/project/angularOnDocker$ git fetch
+um790@UM790:~/project/angularOnDocker$ git add --all
+um790@UM790:~/project/angularOnDocker$ git commit -m "***"
+um790@UM790:~/project/angularOnDocker$ git remote add origin git@github.com:aka999-hub/angularOnDocker.git
+
+
+
 
 ---
 #### 作業ログ：
