@@ -27,10 +27,22 @@ um790@UM790:~/project/angularOnDocker$ git remote -v
 um790@UM790:~/project/angularOnDocker$ git fetch
 um790@UM790:~/project/angularOnDocker$ git add --all
 um790@UM790:~/project/angularOnDocker$ git commit -m "***"
+
+#### remoteリポジトリに追加（初回）
 um790@UM790:~/project/angularOnDocker$ git remote add origin git@github.com:aka999-hub/angularOnDocker.git
+#### remoteリポジトリ更新
+um790@UM790:~/project/angularOnDocker$ git branch
+um790@UM790:~/project/angularOnDocker$ git remote -v
+um790@UM790:~/project/angularOnDocker$ git push origin master
 
 
-
+#### branch作成
+gir branch # 使用中のブランチ確認
+git branch [branch名] 
+#### branchに切り替え
+git checkout [branch名]
+gir branch # 使用中のブランチ確認
+git status
 
 ---
 #### 作業ログ：
